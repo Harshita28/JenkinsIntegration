@@ -12,7 +12,7 @@ public class ClassB {
 	{
 		WebDriver driver= new FirefoxDriver();
 		
-		driver.get("https://www.google.co.in/");
+		driver.get("https://www.facebook.com/");
 		
 		Reporter.log("Maven-Jenkins Integration Testing",true);
 		
