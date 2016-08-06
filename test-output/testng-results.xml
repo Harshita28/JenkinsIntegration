@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[testA]]>
+      <![CDATA[Maven-Jenkins Integration Testing]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="20329" started-at="2016-08-06T10:22:35Z" finished-at="2016-08-06T10:22:55Z">
+  <suite name="Suite" duration-ms="32194" started-at="2016-08-06T11:21:30Z" finished-at="2016-08-06T11:22:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20329" started-at="2016-08-06T10:22:35Z" finished-at="2016-08-06T10:22:55Z">
-      <class name="com.qsp.pack1.DemoA">
-        <test-method status="PASS" signature="testA()[pri:0, instance:com.qsp.pack1.DemoA@3ffc5af1]" name="testA" duration-ms="20298" started-at="2016-08-06T15:52:35Z" finished-at="2016-08-06T15:52:55Z">
+    <test name="Test" duration-ms="32194" started-at="2016-08-06T11:21:30Z" finished-at="2016-08-06T11:22:02Z">
+      <class name="com.qsp.pack1.ClassB">
+        <test-method status="PASS" signature="funA()[pri:0, instance:com.qsp.pack1.ClassB@3ffc5af1]" name="funA" duration-ms="32151" started-at="2016-08-06T16:51:30Z" finished-at="2016-08-06T16:52:02Z">
           <reporter-output>
             <line>
-              <![CDATA[testA]]>
+              <![CDATA[Maven-Jenkins Integration Testing]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testA -->
-      </class> <!-- com.qsp.pack1.DemoA -->
+        </test-method> <!-- funA -->
+      </class> <!-- com.qsp.pack1.ClassB -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

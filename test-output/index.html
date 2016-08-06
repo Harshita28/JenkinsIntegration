@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qsp.pack1.DemoA" hash-for-method="testA">testA</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qsp.pack1.ClassB" hash-for-method="funA">funA</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qsp.pack1.DemoA</span>
+              <span class="class-name">com.qsp.pack1.ClassB</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testA">
-                  </a> <!-- testA -->
-                  <span class="method-name">testA</span>
+                  <a name="funA">
+                  </a> <!-- funA -->
+                  <span class="method-name">funA</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -144,7 +144,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qsp.pack1.DemoA&quot;/&gt;
+      &lt;class name=&quot;com.qsp.pack1.ClassB&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testA')
-data.setCell(0, 2, 'com.qsp.pack1.DemoA')
-data.setCell(0, 3, 20298);
+data.setCell(0, 1, 'funA')
+data.setCell(0, 2, 'com.qsp.pack1.ClassB')
+data.setCell(0, 3, 32151);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -205,9 +205,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testA</span>
+              <span class="reporter-method-name">funA</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">testA</span>
+                <span class="reporter-method-output">Maven-Jenkins Integration Testing</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -225,9 +225,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qsp.pack1.DemoA</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qsp.pack1.ClassB</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testA</span>
+                <span class="method-name">funA</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
