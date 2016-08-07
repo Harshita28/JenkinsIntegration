@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Maven-Jenkins Integration Testing]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40551" started-at="2016-08-07T09:05:41Z" finished-at="2016-08-07T09:06:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40551" started-at="2016-08-07T09:05:41Z" finished-at="2016-08-07T09:06:21Z">
+      <class name="com.qsp.pack1.ClassB">
+        <test-method status="PASS" signature="funA()[pri:0, instance:com.qsp.pack1.ClassB@1554909b]" name="funA" duration-ms="40535" started-at="2016-08-07T14:35:41Z" finished-at="2016-08-07T14:36:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Maven-Jenkins Integration Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- funA -->
+      </class> <!-- com.qsp.pack1.ClassB -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
